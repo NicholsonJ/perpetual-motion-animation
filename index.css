@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 40vh;
+  width: cover;
+  height: 100vh;
+}
+
+.container {
+  background-color: #d19c43;
+  height: 200px;
+  width: 200px;
+  transition: 1000ms ease-in-out;
+  display: flex;
+}
+
+.container-transition {
+  background-color: #ed564b;
+  border-radius: 50%;
+  transform: skewY(180deg);
+  transition: 1000ms ease-in-out;
+}
+
+.fixed-box {
+}
+
+.moving-box {
+}
